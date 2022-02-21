@@ -1,0 +1,25 @@
+.nk-content {
+	 background: white;
+}
+.nk-menu-link:hover,  .active>.nk-menu-link {
+    background: #2f3741e0 !important;
+    color: white !important;
+}
+
+.nk-menu-link:hover .nk-menu-icon, .nk-menu-item.active > .nk-menu-link .nk-menu-icon, .nk-menu-item.current-menu > .nk-menu-link .nk-menu-icon {
+    color: white;
+}
+.nk-menu{
+	padding: 8px 12px 8px 12px
+}
+.nk-menu-link {
+    padding: 0.625rem 28px 0.625rem 12px;
+    color: #6e82a5;
+    font-family: "DM Sans",sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: .01em;
+    text-transform: none;
+    line-height: 1.25rem;
+    border-radius: 6px;
+}
